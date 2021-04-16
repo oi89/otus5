@@ -17,7 +17,7 @@ public class CoursePage {
     @FindBy(css = ".course-header2__title")
     private WebElement title;
 
-    @FindBy(css = "div.course-header2__new span.course-header2__button__text")
+    @FindBy(css = "div.course-header2__new .course-header2__button__text")
     private WebElement signUpButton;
 
     @PostConstruct
